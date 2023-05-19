@@ -10,3 +10,16 @@ while(i<num.length){
 }
 console.log({sum});
 console.log({multiply});
+
+function stopAtFourthIndex(arr){
+    let i = 0;
+    while(i<arr.length){
+        if(i==4){
+            break;
+        }
+        console.log(arr[1]);
+        i++;
+    }
+}
+let arr = [1,2,3,4,5,6,7,8,9]
+console.log(stopAtFourthIndex[arr]);
